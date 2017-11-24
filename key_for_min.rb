@@ -3,5 +3,5 @@
 
 def key_for_min_value(name_hash)
   name_hash.sort.reverse
-  return name_hash.0
+  return name_hash[0]
 end
